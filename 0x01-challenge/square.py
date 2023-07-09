@@ -1,7 +1,15 @@
 #!/usr/bin/python3
+'''
+Square module to deal with 4 sided rectangle
+'''
+
 
 class square():
-    
+    '''
+    Calss Square
+    public attribute hight(int): the hight of the rectengle
+    public attribute width(int): the width of the rectengle
+    '''
     width = 0
     height = 0
 
@@ -21,8 +29,8 @@ class square():
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
-
     s = square(width=12, height=9)
+    
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
