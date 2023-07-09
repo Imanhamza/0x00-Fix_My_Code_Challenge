@@ -4,7 +4,7 @@ Square module to deal with 4 sided rectangle
 '''
 
 
-class square():
+class Square():
     '''
     Calss Square
     public attribute hight(int): the hight of the rectengle
@@ -33,7 +33,7 @@ class square():
 
 if __name__ == "__main__":
     ''' Create an object '''
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.Permiter_of_my_square())
